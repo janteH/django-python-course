@@ -118,7 +118,7 @@ Tiedostoon:
     from django.contrib import admin
     from . import models
     
-    admin.site.register(models.Items)
+    admin.site.register(models.Item)
 
 Admin sivulla näkyy nyt uusi appsi Shoppinglist, jossa Items taulu:
 
