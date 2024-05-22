@@ -14,4 +14,4 @@ Specifications of the computer used in this project:
 - Processor: 2,3 GHz Quad-Core Intel Core i5
 - GPU: Intel Iris Plus Graphics 655 1536 MB
 - Memory: 16 GB 2133 MHz LPDDR3
-- OS: Sonoma 14.4.1 (23E224)
+- OS: Sonoma 14.4.1 (23E224) -> updated Sonoma 14.5
