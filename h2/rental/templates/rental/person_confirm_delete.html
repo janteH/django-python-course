@@ -1,0 +1,12 @@
+{% extends "rental/rental.html" %}
+
+{% block "content" %}
+		<p>Delete "<b>{{ object.name }}</b>"  permanently. This operation cannot be undone.</p>
+
+		<form method=post>
+			{% csrf_token  %}
+			<input type= submit value= "Delete">
+		</form>
+		<p><button name="button"><a href="/">Cancel</a></button></p>
+
+{% endblock "content" %}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang=en>
+	<head>
+		<title>Rental company</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1">
+		<style>
+		a {
+		  color: black;
+		  text-decoration: none;
+		}
+		a:hover{
+		  color: blue;
+		  text-decoration: none;
+		}
+		</style>
+	</head>
+	<body>
+	 <header>
+	  <h1>Rental Co.</h1>
+	 </header>
+	<p><button name="button"><a href="/person">Go Person list</a></button> -
+	<button name="button"><a href="/rental/list">Go Item list</a></button></p>
+	
+	 {% block "content" %}
+	 	<p>Rental Co items to rent for use</p>
+	 {% endblock "content" %}
+
+	<p><button name"button"><a href="/person/new">New Person</a></button> - 
+	<button name="button"><a href="/item/new">New Item</a></button></p>
+
+	</body>
+</html>

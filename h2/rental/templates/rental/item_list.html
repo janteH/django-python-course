@@ -1,0 +1,8 @@
+{% extends "rental/rental.html" %}
+
+{% block "content" %}
+	{% for object in object_list %}
+		<p><a href="/item/{{ object.pk }}">{{ object.name }}</a></p>
+	{% endfor %}
+
+{% endblock "content" %}
