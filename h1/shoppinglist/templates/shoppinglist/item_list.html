@@ -1,0 +1,10 @@
+{% extends "shoppinglist/about.html" %}
+
+{% block "content" %}
+	<h2>Shoppinglist</h2>
+	{% for object in object_list %}
+		<p><a href="/item/{{ object.pk }}">{{ object }}</a></p>
+	{% endfor %}
+
+	<p><button name=button><a href="/item/new">Add New Item</a></button></p>
+{% endblock "content" %}
