@@ -37,7 +37,7 @@ Luodaan tiedosto, johon kirjoitetaan pipillä asennettavat tavarat:
 
 Tiedoston sisällöksi:
 
-    django 4.2.*
+    django==4.2.*
 
 Catilla vielä tuplatarkistus, että ei ole kirjoitusvirheitä:
 
