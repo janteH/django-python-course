@@ -1,6 +1,8 @@
 # django-python-course
 Repository for returning Django course assignments.
 
+Final project source code can be found here: https://github.com/janteH/gymprogram
+
 
 Haaga-Helia Course ICT8TN034-3004 - summer 2024
 
